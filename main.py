@@ -309,7 +309,7 @@ class SquatAnalyzer:
 def main():
     # Initialize the squat analyzer - provide your OpenAI API key if you want ChatGPT feedback
     # If no API key provided, will use rule-based feedback instead
-    analyzer = SquatAnalyzer(api_key=None)  # Replace with "your_api_key_here"
+    analyzer = SquatAnalyzer(api_key=None)  # Replace with "your_api_key_here" BUT USE AN ENV DONT PUT THE API KEY IN THE FUCKING CODE MATHEW!
     
     # Open camera
     cap = cv2.VideoCapture(0)
